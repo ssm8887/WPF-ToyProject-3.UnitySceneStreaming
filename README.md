@@ -84,20 +84,23 @@
 	```
 	+ Test용 Web RTMP Player  
 		https://www.wowza.com/resources/3.6.0/examples/LiveVideoStreaming/FlashRTMPPlayer/player.html  
+			  
+	------------------------------------------------------------------------------------------  
+	  
 
 + ### 구동 화면
 
 | Unity(WebRTC)		 							| WPF(WebRTC)			 					|
 | ------------ 									| ------------								|
-| ![image.png](./Unity(WebRTC).png)				| ![image.png](./Images/WPF(WebRTC).png)	|
+| ![image.png](./_Images/Unity(WebRTC).png)		| ![image.png](./_Images/WPF(WebRTC).png)	|
 
 | Unity(UnityCapture) 							| Unity(UnityCam) 							|
 | ------------ 									| ------------ 								|
-| ![image.png](./Images/UnityCapture&OBS.png) 	| ![image.png](./Images/UnityCam.png) 		|
+| ![image.png](./_Images/UnityCapture&OBS.png) 	| ![image.png](./_Images/UnityCam.png) 		|
 
 | WPF(WebEye) 									| WPF(Vlc) 									|
 | ------------ 									| ------------ 								|
-| ![image.png](./Images/WebEye.png) 			| ![image.png](./Images/Vlc.png) 			|  
+| ![image.png](./_Images/WebEye.png) 			| ![image.png](./_Images/Vlc.png) 			|  
 
 + ### 소스코드
 	+ Git – https://github.com/ssm8887/WPF-ToyProject-3.UnitySceneStreaming  
