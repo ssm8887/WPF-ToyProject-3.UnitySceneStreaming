@@ -1,0 +1,66 @@
+WebRTC방식
+
+Chrome Browser Embedded in WPF
+	https://codepulse.tistory.com/1
+
+WebRTC Tutorial
+	https://docs.unity3d.com/Packages/com.unity.renderstreaming@2.0/manual/en/tutorial.html
+
+WebApp(WebServer) git - node.js
+	https://github.com/Unity-Technologies/UnityRenderStreaming/tree/release/2.0.2/WebApp
+
+---------------------------------------------------------------------------------------------------------------------------
+UnityCapture(Nginx&OBS사용) - 원본 Unity 3D에만 적용가능
+
+UnityCapture Git - 설명, 예제
+	https://github.com/schellingb/UnityCapture
+
+WebEye - FFMPEG Rtmp Streaming in Winform&WPF library
+	https://www.codeproject.com/Articles/885869/Stream-Player-control
+
+Nginx-Rtmp - Web Server(Rtmp)
+	https://github.com/illuspas/nginx-rtmp-win32
+Nginx 설정법
+	https://seogilang.tistory.com/397
+
+HDRP/URP에 적용법 - UnityCapture.cs 수정
+	https://github.com/schellingb/UnityCapture/issues/8
+
+Test용 Web RTMP Player
+	https://www.wowza.com/resources/3.6.0/examples/LiveVideoStreaming/FlashRTMPPlayer/player.html
+
+------------------------------------------------------------------------------------------
+UnityCam(Nginx&OBS사용) - 원본 Unity 3D에만 적용가능
+
+UnityCam Git - 설명, 예제
+	https://github.com/mrayy/UnityCam
+
+WebEye - FFMPEG Rtmp Streaming in Winform&WPF library
+	https://www.codeproject.com/Articles/885869/Stream-Player-control
+
+Nginx-Rtmp - Web Server(Rtmp)
+	https://github.com/illuspas/nginx-rtmp-win32
+Nginx 설정법
+	https://seogilang.tistory.com/397
+
+Test용 Web RTMP Player
+	https://www.wowza.com/resources/3.6.0/examples/LiveVideoStreaming/FlashRTMPPlayer/player.html
+
+HDRP/URP에 적용법 - UnityCam.cs 수정
+	
+	public RenderTexture source;
+
+	private void Update()
+	{
+		var tempRT = RenderTexture.GetTemporary(640, 480);
+
+		RenderImage(source, tempRT);
+	}
+
+----------------------------------------------------------------------------------------------
+
+VLC기반 RTMP 플레이어 - FFMPEG기반보다 퍼포먼스 좋음(지연율 약 2초)
+	Git - https://github.com/ZeBobo5/Vlc.DotNet
+	
+
+
