@@ -22,7 +22,7 @@ namespace VlcPlayerWPF
             // Default installation path of VideoLAN.LibVLC.Windows
             var libDirectory = new DirectoryInfo(Path.Combine(currentDirectory, "libvlc", IntPtr.Size == 4 ? "win-x86" : "win-x64"));
 
-            this.MyControl.SourceProvider.CreatePlayer(libDirectory/* pass your player parameters here */);
+            this.MyControl.SourceProvider.CreatePlayer(libDirectory/* pass your player parameters here */); 
             this.MyControl.SourceProvider.MediaPlayer.Play(new Uri("rtmp://192.168.0.114/live/stream_live"));
              
         }
