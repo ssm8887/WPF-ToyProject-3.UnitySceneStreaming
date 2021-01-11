@@ -1,0 +1,26 @@
+﻿<Window x:Class="StreamingUnityRender_Repair.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:wpf="clr-namespace:CefSharp.Wpf;assembly=CefSharp.Wpf"
+        xmlns:local="clr-namespace:StreamingUnityRender_Repair"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.5*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <!--<StackPanel Grid.Column="0" Margin="10" Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <Button Margin="10" Content="연결"/>
+            <Button Margin="10" Content="Camera1 재생"/>
+            <Button Margin="10" Content="Camera2 재생"/>
+        </StackPanel>-->
+
+        <Grid Grid.Column="0" Grid.ColumnSpan="2" Margin="10">
+            <wpf:ChromiumWebBrowser x:Name="ChromeBrowser" Address="http://192.168.0.114"/>
+        </Grid>
+    </Grid>
+</Window>
