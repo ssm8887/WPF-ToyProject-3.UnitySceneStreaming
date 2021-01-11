@@ -24,7 +24,7 @@ namespace VlcPlayerWPF
 
             this.MyControl.SourceProvider.CreatePlayer(libDirectory/* pass your player parameters here */);
             this.MyControl.SourceProvider.MediaPlayer.Play(new Uri("rtmp://192.168.0.114/live/stream_live"));
-
+             
         }
     }
 }
