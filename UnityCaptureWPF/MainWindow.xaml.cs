@@ -25,7 +25,7 @@ namespace UnityCaptureWPF
         {
             InitializeComponent();
 
-            this.streamPlayerControl.StreamFailed += StreamPlayerControl_StreamHandler;
+            this.streamPlayerControl.StreamFailed += StreamPlayerControl_StreamHandler; 
             this.streamPlayerControl.StreamStarted += StreamPlayerControl_StreamHandler;
             this.streamPlayerControl.StreamStopped += StreamPlayerControl_StreamHandler;
 
